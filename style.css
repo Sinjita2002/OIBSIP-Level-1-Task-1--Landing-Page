@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+S00&family=Great+Vibes&family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: black ;
+    color: white;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+display: flex;
+height: 67px;
+font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+
+
+.topleft{
+width: 50%;
+
+}
+
+.topright{
+   width: 50%;
+   
+}
+
+.section1{
+max-height: 100vh;
+background-color: black;
+color: aliceblue;
+
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.ministerylogoimg{
+    width:239px;
+    
+}
+
+
+.topright .pose3img{
+    width: 400px;
+}
+
+
+
+
+.section2{
+ padding-left: 63px;   
+ padding-right: 63px;
+ background: url('nat.jpg');
+ color:burlywood;
+
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 23vw;
+    border: 2px solid rgb(23, 23, 25);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+font-size: 1.5rem;
+padding:15px ;
+}
+
+.highlighted{
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+
+
+footer{
+    padding:23px;
+    text-align: center;
+}
